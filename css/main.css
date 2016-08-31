@@ -1,0 +1,395 @@
+html,
+body {
+  background: #f2f2f2;
+  font-family: "Microsoft YaHei";
+}
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-activity {
+  background-position: -5px -5px;
+  width: 120px;
+  height: 120px;
+}
+.sprite.sprite-add-img {
+  background-position: -135px -5px;
+  width: 56px;
+  height: 56px;
+}
+.sprite.sprite-android-icon {
+  background-position: -201px -5px;
+  width: 32px;
+  height: 35px;
+}
+.sprite.sprite-arrow-down {
+  background-position: -243px -5px;
+  width: 32px;
+  height: 19px;
+}
+.sprite.sprite-arrow-up {
+  background-position: -285px -5px;
+  width: 32px;
+  height: 19px;
+}
+.sprite.sprite-back {
+  background-position: -327px -5px;
+  width: 21px;
+  height: 36px;
+}
+.sprite.sprite-bank-check {
+  background-position: -358px -5px;
+  width: 32px;
+  height: 32px;
+}
+.sprite.sprite-close {
+  background-position: -400px -5px;
+  width: 36px;
+  height: 36px;
+}
+.sprite.sprite-code {
+  background-position: -446px -5px;
+  width: 24px;
+  height: 24px;
+}
+.sprite.sprite-code-success {
+  background-position: -480px -5px;
+  width: 54px;
+  height: 54px;
+}
+.sprite.sprite-del {
+  background-position: -544px -5px;
+  width: 38px;
+  height: 38px;
+}
+.sprite.sprite-dian {
+  background-position: -592px -5px;
+  width: 10px;
+  height: 10px;
+}
+.sprite.sprite-edit-gou {
+  background-position: -612px -5px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-email {
+  background-position: -652px -5px;
+  width: 28px;
+  height: 22px;
+}
+.sprite.sprite-email-close {
+  background-position: -690px -5px;
+  width: 34px;
+  height: 34px;
+}
+.sprite.sprite-empty-bg {
+  background-position: -201px -69px;
+  width: 586px;
+  height: 345px;
+}
+.sprite.sprite-empty-text {
+  background-position: -5px -424px;
+  width: 371px;
+  height: 32px;
+}
+.sprite.sprite-github {
+  background-position: -734px -5px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-gmail {
+  background-position: -774px -5px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-ios-icon {
+  background-position: -814px -5px;
+  width: 31px;
+  height: 35px;
+}
+.sprite.sprite-linkedin {
+  background-position: -855px -5px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-lock_2x {
+  background-position: -895px -5px;
+  width: 26px;
+  height: 29px;
+}
+.sprite.sprite-login-check {
+  background-position: -895px -44px;
+  width: 29px;
+  height: 29px;
+}
+.sprite.sprite-login-check-on {
+  background-position: -135px -83px;
+  width: 29px;
+  height: 29px;
+}
+.sprite.sprite-logo {
+  background-position: -797px -83px;
+  width: 114px;
+  height: 127px;
+}
+.sprite.sprite-lookpassword {
+  background-position: -5px -220px;
+  width: 40px;
+  height: 24px;
+}
+.sprite.sprite-lookpassword-on {
+  background-position: -55px -220px;
+  width: 40px;
+  height: 24px;
+}
+.sprite.sprite-mes-advice {
+  background-position: -105px -220px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-arrow {
+  background-position: -931px -5px;
+  width: 13px;
+  height: 23px;
+}
+.sprite.sprite-mes-arrow-me {
+  background-position: -174px -83px;
+  width: 16px;
+  height: 27px;
+}
+.sprite.sprite-mes-bug {
+  background-position: -797px -220px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-chong {
+  background-position: -867px -220px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-circle {
+  background-position: -5px -290px;
+  width: 58px;
+  height: 58px;
+}
+.sprite.sprite-mes-circle-on {
+  background-position: -73px -290px;
+  width: 58px;
+  height: 58px;
+}
+.sprite.sprite-mes-gua {
+  background-position: -797px -290px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-icon {
+  background-position: -386px -424px;
+  width: 160px;
+  height: 161px;
+}
+.sprite.sprite-mes-login {
+  background-position: -867px -290px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-note {
+  background-position: -797px -360px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-safe {
+  background-position: -867px -360px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-mes-top-bg {
+  background-position: -5px -595px;
+  width: 750px;
+  height: 317px;
+}
+.sprite.sprite-news_03 {
+  background-position: -556px -430px;
+  width: 120px;
+  height: 120px;
+}
+.sprite.sprite-note-icon {
+  background-position: -141px -290px;
+  width: 36px;
+  height: 28px;
+}
+.sprite.sprite-password {
+  background-position: -5px -360px;
+  width: 26px;
+  height: 29px;
+}
+.sprite.sprite-peron-bi-icon2 {
+  background-position: -41px -360px;
+  width: 47px;
+  height: 48px;
+}
+.sprite.sprite-peron-order-icon {
+  background-position: -98px -360px;
+  width: 45px;
+  height: 49px;
+}
+.sprite.sprite-peron-user {
+  background-position: -686px -430px;
+  width: 136px;
+  height: 136px;
+}
+.sprite.sprite-person-bi {
+  background-position: -153px -360px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-person-bi-icon {
+  background-position: -832px -430px;
+  width: 49px;
+  height: 49px;
+}
+.sprite.sprite-person-cw-icon {
+  background-position: -891px -430px;
+  width: 40px;
+  height: 49px;
+}
+.sprite.sprite-person-edit {
+  background-position: -921px -83px;
+  width: 23px;
+  height: 24px;
+}
+.sprite.sprite-person-email-icon {
+  background-position: -5px -489px;
+  width: 48px;
+  height: 49px;
+}
+.sprite.sprite-person-gift-icon {
+  background-position: -63px -489px;
+  width: 42px;
+  height: 49px;
+}
+.sprite.sprite-person-phone-icon {
+  background-position: -115px -489px;
+  width: 37px;
+  height: 49px;
+}
+.sprite.sprite-person-question-icon {
+  background-position: -162px -489px;
+  width: 45px;
+  height: 49px;
+}
+.sprite.sprite-person-rel-icon {
+  background-position: -217px -489px;
+  width: 49px;
+  height: 49px;
+}
+.sprite.sprite-person-sw-icon {
+  background-position: -276px -489px;
+  width: 40px;
+  height: 49px;
+}
+.sprite.sprite-personcode {
+  background-position: -326px -489px;
+  width: 28px;
+  height: 32px;
+}
+.sprite.sprite-phone {
+  background-position: -921px -117px;
+  width: 16px;
+  height: 29px;
+}
+.sprite.sprite-question-arrow {
+  background-position: -5px -156px;
+  width: 20px;
+  height: 37px;
+}
+.sprite.sprite-recharge-caifutong {
+  background-position: -832px -489px;
+  width: 100px;
+  height: 101px;
+}
+.sprite.sprite-recharge-money {
+  background-position: -765px -600px;
+  width: 74px;
+  height: 74px;
+}
+.sprite.sprite-recharge-tuijian {
+  background-position: -849px -600px;
+  width: 39px;
+  height: 39px;
+}
+.sprite.sprite-recharge-user-icon {
+  background-position: -849px -649px;
+  width: 80px;
+  height: 80px;
+}
+.sprite.sprite-recharge-yinlian {
+  background-position: -765px -739px;
+  width: 100px;
+  height: 101px;
+}
+.sprite.sprite-recharge-zhifubao {
+  background-position: -954px -5px;
+  width: 100px;
+  height: 101px;
+}
+.sprite.sprite-register-arrow {
+  background-position: -954px -116px;
+  width: 15px;
+  height: 30px;
+}
+.sprite.sprite-right {
+  background-position: -979px -116px;
+  width: 42px;
+  height: 42px;
+}
+.sprite.sprite-search-icon {
+  background-position: -35px -168px;
+  width: 39px;
+  height: 39px;
+}
+.sprite.sprite-send-email {
+  background-position: -875px -739px;
+  width: 118px;
+  height: 118px;
+}
+.sprite.sprite-stackoverflow {
+  background-position: -84px -168px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-tab4 {
+  background-position: -1064px -5px;
+  width: 345px;
+  height: 242px;
+}
+.sprite.sprite-talk-kefu-icon {
+  background-position: -937px -257px;
+  width: 86px;
+  height: 86px;
+}
+.sprite.sprite-talk-user-icon {
+  background-position: -1033px -257px;
+  width: 86px;
+  height: 86px;
+}
+.sprite.sprite-touch {
+  background-position: -1129px -257px;
+  width: 40px;
+  height: 42px;
+}
+.sprite.sprite-tumblr {
+  background-position: -1179px -257px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-twitter {
+  background-position: -1219px -257px;
+  width: 30px;
+  height: 30px;
+}
+.sprite.sprite-user {
+  background-position: -1259px -257px;
+  width: 27px;
+  height: 27px;
+}

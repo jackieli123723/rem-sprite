@@ -1,0 +1,318 @@
+.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);    background-repeat: no-repeat;
+    display: block;
+
+    &.sprite-activity {
+        .stitches-sprite(-5px, -5px, 120px, 120px);
+    }
+
+    &.sprite-add-img {
+        .stitches-sprite(-135px, -5px, 56px, 56px);
+    }
+
+    &.sprite-android-icon {
+        .stitches-sprite(-201px, -5px, 32px, 35px);
+    }
+
+    &.sprite-arrow-down {
+        .stitches-sprite(-243px, -5px, 32px, 19px);
+    }
+
+    &.sprite-arrow-up {
+        .stitches-sprite(-285px, -5px, 32px, 19px);
+    }
+
+    &.sprite-back {
+        .stitches-sprite(-327px, -5px, 21px, 36px);
+    }
+
+    &.sprite-bank-check {
+        .stitches-sprite(-358px, -5px, 32px, 32px);
+    }
+
+    &.sprite-close {
+        .stitches-sprite(-400px, -5px, 36px, 36px);
+    }
+
+    &.sprite-code {
+        .stitches-sprite(-446px, -5px, 24px, 24px);
+    }
+
+    &.sprite-code-success {
+        .stitches-sprite(-480px, -5px, 54px, 54px);
+    }
+
+    &.sprite-del {
+        .stitches-sprite(-544px, -5px, 38px, 38px);
+    }
+
+    &.sprite-dian {
+        .stitches-sprite(-592px, -5px, 10px, 10px);
+    }
+
+    &.sprite-edit-gou {
+        .stitches-sprite(-612px, -5px, 30px, 30px);
+    }
+
+    &.sprite-email {
+        .stitches-sprite(-652px, -5px, 28px, 22px);
+    }
+
+    &.sprite-email-close {
+        .stitches-sprite(-690px, -5px, 34px, 34px);
+    }
+
+    &.sprite-empty-bg {
+        .stitches-sprite(-201px, -69px, 586px, 345px);
+    }
+
+    &.sprite-empty-text {
+        .stitches-sprite(-5px, -424px, 371px, 32px);
+    }
+
+    &.sprite-github {
+        .stitches-sprite(-734px, -5px, 30px, 30px);
+    }
+
+    &.sprite-gmail {
+        .stitches-sprite(-774px, -5px, 30px, 30px);
+    }
+
+    &.sprite-ios-icon {
+        .stitches-sprite(-814px, -5px, 31px, 35px);
+    }
+
+    &.sprite-linkedin {
+        .stitches-sprite(-855px, -5px, 30px, 30px);
+    }
+
+    &.sprite-lock_2x {
+        .stitches-sprite(-895px, -5px, 26px, 29px);
+    }
+
+    &.sprite-login-check {
+        .stitches-sprite(-895px, -44px, 29px, 29px);
+    }
+
+    &.sprite-login-check-on {
+        .stitches-sprite(-135px, -83px, 29px, 29px);
+    }
+
+    &.sprite-logo {
+        .stitches-sprite(-797px, -83px, 114px, 127px);
+    }
+
+    &.sprite-lookpassword {
+        .stitches-sprite(-5px, -220px, 40px, 24px);
+    }
+
+    &.sprite-lookpassword-on {
+        .stitches-sprite(-55px, -220px, 40px, 24px);
+    }
+
+    &.sprite-mes-advice {
+        .stitches-sprite(-105px, -220px, 60px, 60px);
+    }
+
+    &.sprite-mes-arrow {
+        .stitches-sprite(-931px, -5px, 13px, 23px);
+    }
+
+    &.sprite-mes-arrow-me {
+        .stitches-sprite(-174px, -83px, 16px, 27px);
+    }
+
+    &.sprite-mes-bug {
+        .stitches-sprite(-797px, -220px, 60px, 60px);
+    }
+
+    &.sprite-mes-chong {
+        .stitches-sprite(-867px, -220px, 60px, 60px);
+    }
+
+    &.sprite-mes-circle {
+        .stitches-sprite(-5px, -290px, 58px, 58px);
+    }
+
+    &.sprite-mes-circle-on {
+        .stitches-sprite(-73px, -290px, 58px, 58px);
+    }
+
+    &.sprite-mes-gua {
+        .stitches-sprite(-797px, -290px, 60px, 60px);
+    }
+
+    &.sprite-mes-icon {
+        .stitches-sprite(-386px, -424px, 160px, 161px);
+    }
+
+    &.sprite-mes-login {
+        .stitches-sprite(-867px, -290px, 60px, 60px);
+    }
+
+    &.sprite-mes-note {
+        .stitches-sprite(-797px, -360px, 60px, 60px);
+    }
+
+    &.sprite-mes-safe {
+        .stitches-sprite(-867px, -360px, 60px, 60px);
+    }
+
+    &.sprite-mes-top-bg {
+        .stitches-sprite(-5px, -595px, 750px, 317px);
+    }
+
+    &.sprite-news_03 {
+        .stitches-sprite(-556px, -430px, 120px, 120px);
+    }
+
+    &.sprite-note-icon {
+        .stitches-sprite(-141px, -290px, 36px, 28px);
+    }
+
+    &.sprite-password {
+        .stitches-sprite(-5px, -360px, 26px, 29px);
+    }
+
+    &.sprite-peron-bi-icon2 {
+        .stitches-sprite(-41px, -360px, 47px, 48px);
+    }
+
+    &.sprite-peron-order-icon {
+        .stitches-sprite(-98px, -360px, 45px, 49px);
+    }
+
+    &.sprite-peron-user {
+        .stitches-sprite(-686px, -430px, 136px, 136px);
+    }
+
+    &.sprite-person-bi {
+        .stitches-sprite(-153px, -360px, 30px, 30px);
+    }
+
+    &.sprite-person-bi-icon {
+        .stitches-sprite(-832px, -430px, 49px, 49px);
+    }
+
+    &.sprite-person-cw-icon {
+        .stitches-sprite(-891px, -430px, 40px, 49px);
+    }
+
+    &.sprite-person-edit {
+        .stitches-sprite(-921px, -83px, 23px, 24px);
+    }
+
+    &.sprite-person-email-icon {
+        .stitches-sprite(-5px, -489px, 48px, 49px);
+    }
+
+    &.sprite-person-gift-icon {
+        .stitches-sprite(-63px, -489px, 42px, 49px);
+    }
+
+    &.sprite-person-phone-icon {
+        .stitches-sprite(-115px, -489px, 37px, 49px);
+    }
+
+    &.sprite-person-question-icon {
+        .stitches-sprite(-162px, -489px, 45px, 49px);
+    }
+
+    &.sprite-person-rel-icon {
+        .stitches-sprite(-217px, -489px, 49px, 49px);
+    }
+
+    &.sprite-person-sw-icon {
+        .stitches-sprite(-276px, -489px, 40px, 49px);
+    }
+
+    &.sprite-personcode {
+        .stitches-sprite(-326px, -489px, 28px, 32px);
+    }
+
+    &.sprite-phone {
+        .stitches-sprite(-921px, -117px, 16px, 29px);
+    }
+
+    &.sprite-question-arrow {
+        .stitches-sprite(-5px, -156px, 20px, 37px);
+    }
+
+    &.sprite-recharge-caifutong {
+        .stitches-sprite(-832px, -489px, 100px, 101px);
+    }
+
+    &.sprite-recharge-money {
+        .stitches-sprite(-765px, -600px, 74px, 74px);
+    }
+
+    &.sprite-recharge-tuijian {
+        .stitches-sprite(-849px, -600px, 39px, 39px);
+    }
+
+    &.sprite-recharge-user-icon {
+        .stitches-sprite(-849px, -649px, 80px, 80px);
+    }
+
+    &.sprite-recharge-yinlian {
+        .stitches-sprite(-765px, -739px, 100px, 101px);
+    }
+
+    &.sprite-recharge-zhifubao {
+        .stitches-sprite(-954px, -5px, 100px, 101px);
+    }
+
+    &.sprite-register-arrow {
+        .stitches-sprite(-954px, -116px, 15px, 30px);
+    }
+
+    &.sprite-right {
+        .stitches-sprite(-979px, -116px, 42px, 42px);
+    }
+
+    &.sprite-search-icon {
+        .stitches-sprite(-35px, -168px, 39px, 39px);
+    }
+
+    &.sprite-send-email {
+        .stitches-sprite(-875px, -739px, 118px, 118px);
+    }
+
+    &.sprite-stackoverflow {
+        .stitches-sprite(-84px, -168px, 30px, 30px);
+    }
+
+    &.sprite-tab4 {
+        .stitches-sprite(-1064px, -5px, 345px, 242px);
+    }
+
+    &.sprite-talk-kefu-icon {
+        .stitches-sprite(-937px, -257px, 86px, 86px);
+    }
+
+    &.sprite-talk-user-icon {
+        .stitches-sprite(-1033px, -257px, 86px, 86px);
+    }
+
+    &.sprite-touch {
+        .stitches-sprite(-1129px, -257px, 40px, 42px);
+    }
+
+    &.sprite-tumblr {
+        .stitches-sprite(-1179px, -257px, 30px, 30px);
+    }
+
+    &.sprite-twitter {
+        .stitches-sprite(-1219px, -257px, 30px, 30px);
+    }
+
+    &.sprite-user {
+        .stitches-sprite(-1259px, -257px, 27px, 27px);
+    }
+}

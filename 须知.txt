@@ -1,0 +1,12 @@
+demo1:http://www.cn.spritegen.website-performance.org/
+demo2:http://www.spritebox.net/#
+
+适用于pc端  demo.html
+适用于移动端  demo-rem.html 
+注意移动端添加 	background-size: @u*1414rem @u*917rem;就是雪碧图原本的大小 不然会导致图片混乱 background-position也取具体值，也是按照切出来的图的尺寸就行。
+.sprite {
+    background-image: url(../images/spritesheet.png);  
+  background-repeat: no-repeat;
+    display: block;
+background-size: @u*1414rem @u*917rem;
+}

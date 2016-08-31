@@ -1,0 +1,330 @@
+
+//设计稿是750宽度，十等分1rem=@u*75rem，@u*1rem约等于,0.0133333rem
+@u: 0.01333333334;
+html,
+body {
+    background: #f2f2f2;
+    font-family: "Microsoft YaHei";
+}
+
+
+.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+
+.sprite {
+    background-image: url(../images/spritesheet.png);    background-repeat: no-repeat;
+    display: block;
+	background-size: @u*1414rem @u*917rem;
+
+    &.sprite-activity {
+        .stitches-sprite(-@u*5rem, -@u*5rem, @u*120rem, @u*120rem);
+    }
+
+    &.sprite-add-img {
+        .stitches-sprite(-@u*135rem, -@u*5rem, @u*56rem, @u*56rem);
+    }
+
+    &.sprite-android-icon {
+        .stitches-sprite(-@u*201rem, -@u*5rem, @u*32rem, @u*35rem);
+    }
+
+    &.sprite-arrow-down {
+        .stitches-sprite(-@u*243rem, -@u*5rem, @u*32rem, @u*19rem);
+    }
+
+    &.sprite-arrow-up {
+        .stitches-sprite(-@u*285rem, -@u*5rem, @u*32rem, @u*19rem);
+    }
+
+    &.sprite-back {
+        .stitches-sprite(-@u*327rem, -@u*5rem, @u*21rem, @u*36rem);
+    }
+
+    &.sprite-bank-check {
+        .stitches-sprite(-@u*358rem, -@u*5rem, @u*32rem, @u*32rem);
+    }
+
+    &.sprite-close {
+        .stitches-sprite(-@u*400rem, -@u*5rem, @u*36rem, @u*36rem);
+    }
+
+    &.sprite-code {
+        .stitches-sprite(-@u*446rem, -@u*5rem, @u*24rem, @u*24rem);
+    }
+
+    &.sprite-code-success {
+        .stitches-sprite(-@u*480rem, -@u*5rem, @u*54rem, @u*54rem);
+    }
+
+    &.sprite-del {
+        .stitches-sprite(-@u*544rem, -@u*5rem, @u*38rem, @u*38rem);
+    }
+
+    &.sprite-dian {
+        .stitches-sprite(-@u*592rem, -@u*5rem, @u*10rem, @u*10rem);
+    }
+
+    &.sprite-edit-gou {
+        .stitches-sprite(-@u*612rem, -@u*5rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-email {
+        .stitches-sprite(-@u*652rem, -@u*5rem, @u*28rem, @u*22rem);
+    }
+
+    &.sprite-email-close {
+        .stitches-sprite(-@u*690rem, -@u*5rem, @u*34rem, @u*34rem);
+    }
+
+    &.sprite-empty-bg {
+        .stitches-sprite(-@u*201rem, -@u*69rem, @u*586rem, @u*345rem);
+    }
+
+    &.sprite-empty-text {
+        .stitches-sprite(-@u*5rem, -@u*424rem, @u*371rem, @u*32rem);
+    }
+
+    &.sprite-github {
+        .stitches-sprite(-@u*734rem, -@u*5rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-gmail {
+        .stitches-sprite(-@u*774rem, -@u*5rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-ios-icon {
+        .stitches-sprite(-@u*814rem, -@u*5rem, @u*31rem, @u*35rem);
+    }
+
+    &.sprite-linkedin {
+        .stitches-sprite(-@u*855rem, -@u*5rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-lock_2x {
+        .stitches-sprite(-@u*895rem, -@u*5rem, @u*26rem, @u*29rem);
+    }
+
+    &.sprite-login-check {
+        .stitches-sprite(-@u*895rem, -@u*44rem, @u*29rem, @u*29rem);
+    }
+
+    &.sprite-login-check-on {
+        .stitches-sprite(-@u*135rem, -@u*83rem, @u*29rem, @u*29rem);
+    }
+
+    &.sprite-logo {
+        .stitches-sprite(-@u*797rem, -@u*83rem, @u*114rem, @u*127rem);
+    }
+
+    &.sprite-lookpassword {
+        .stitches-sprite(-@u*5rem, -@u*220rem, @u*40rem, @u*24rem);
+    }
+
+    &.sprite-lookpassword-on {
+        .stitches-sprite(-@u*55rem, -@u*220rem, @u*40rem, @u*24rem);
+    }
+
+    &.sprite-mes-advice {
+        .stitches-sprite(-@u*105rem, -@u*220rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-arrow {
+        .stitches-sprite(-@u*931rem, -@u*5rem, @u*13rem, @u*23rem);
+    }
+
+    &.sprite-mes-arrow-me {
+        .stitches-sprite(-@u*174rem, -@u*83rem, @u*16rem, @u*27rem);
+    }
+
+    &.sprite-mes-bug {
+        .stitches-sprite(-@u*797rem, -@u*220rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-chong {
+        .stitches-sprite(-@u*867rem, -@u*220rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-circle {
+        .stitches-sprite(-@u*5rem, -@u*290rem, @u*58rem, @u*58rem);
+    }
+
+    &.sprite-mes-circle-on {
+        .stitches-sprite(-@u*73rem, -@u*290rem, @u*58rem, @u*58rem);
+    }
+
+    &.sprite-mes-gua {
+        .stitches-sprite(-@u*797rem, -@u*290rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-icon {
+        .stitches-sprite(-@u*386rem, -@u*424rem, @u*160rem, @u*161rem);
+    }
+
+    &.sprite-mes-login {
+        .stitches-sprite(-@u*867rem, -@u*290rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-note {
+        .stitches-sprite(-@u*797rem, -@u*360rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-safe {
+        .stitches-sprite(-@u*867rem, -@u*360rem, @u*60rem, @u*60rem);
+    }
+
+    &.sprite-mes-top-bg {
+        .stitches-sprite(-@u*5rem, -@u*595rem, @u*750rem, @u*317rem);
+    }
+
+    &.sprite-news_03 {
+        .stitches-sprite(-@u*556rem, -@u*430rem, @u*120rem, @u*120rem);
+    }
+
+    &.sprite-note-icon {
+        .stitches-sprite(-@u*141rem, -@u*290rem, @u*36rem, @u*28rem);
+    }
+
+    &.sprite-password {
+        .stitches-sprite(-@u*5rem, -@u*360rem, @u*26rem, @u*29rem);
+    }
+
+    &.sprite-peron-bi-icon2 {
+        .stitches-sprite(-@u*41rem, -@u*360rem, @u*47rem, @u*48rem);
+    }
+
+    &.sprite-peron-order-icon {
+        .stitches-sprite(-@u*98rem, -@u*360rem, @u*45rem, @u*49rem);
+    }
+
+    &.sprite-peron-user {
+        .stitches-sprite(-@u*686rem, -@u*430rem, @u*136rem, @u*136rem);
+    }
+
+    &.sprite-person-bi {
+        .stitches-sprite(-@u*153rem, -@u*360rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-person-bi-icon {
+        .stitches-sprite(-@u*832rem, -@u*430rem, @u*49rem, @u*49rem);
+    }
+
+    &.sprite-person-cw-icon {
+        .stitches-sprite(-@u*891rem, -@u*430rem, @u*40rem, @u*49rem);
+    }
+
+    &.sprite-person-edit {
+        .stitches-sprite(-@u*921rem, -@u*83rem, @u*23rem, @u*24rem);
+    }
+
+    &.sprite-person-email-icon {
+        .stitches-sprite(-@u*5rem, -@u*489rem, @u*48rem, @u*49rem);
+    }
+
+    &.sprite-person-gift-icon {
+        .stitches-sprite(-@u*63rem, -@u*489rem, @u*42rem, @u*49rem);
+    }
+
+    &.sprite-person-phone-icon {
+        .stitches-sprite(-@u*115rem, -@u*489rem, @u*37rem, @u*49rem);
+    }
+
+    &.sprite-person-question-icon {
+        .stitches-sprite(-@u*162rem, -@u*489rem, @u*45rem, @u*49rem);
+    }
+
+    &.sprite-person-rel-icon {
+        .stitches-sprite(-@u*217rem, -@u*489rem, @u*49rem, @u*49rem);
+    }
+
+    &.sprite-person-sw-icon {
+        .stitches-sprite(-@u*276rem, -@u*489rem, @u*40rem, @u*49rem);
+    }
+
+    &.sprite-personcode {
+        .stitches-sprite(-@u*326rem, -@u*489rem, @u*28rem, @u*32rem);
+    }
+
+    &.sprite-phone {
+        .stitches-sprite(-@u*921rem, -@u*117rem, @u*16rem, @u*29rem);
+    }
+
+    &.sprite-question-arrow {
+        .stitches-sprite(-@u*5rem, -@u*156rem, @u*20rem, @u*37rem);
+    }
+
+    &.sprite-recharge-caifutong {
+        .stitches-sprite(-@u*832rem, -@u*489rem, @u*100rem, @u*101rem);
+    }
+
+    &.sprite-recharge-money {
+        .stitches-sprite(-@u*765rem, -@u*600rem, @u*74rem, @u*74rem);
+    }
+
+    &.sprite-recharge-tuijian {
+        .stitches-sprite(-@u*849rem, -@u*600rem, @u*39rem, @u*39rem);
+    }
+
+    &.sprite-recharge-user-icon {
+        .stitches-sprite(-@u*849rem, -@u*649rem, @u*80rem, @u*80rem);
+    }
+
+    &.sprite-recharge-yinlian {
+        .stitches-sprite(-@u*765rem, -@u*739rem, @u*100rem, @u*101rem);
+    }
+
+    &.sprite-recharge-zhifubao {
+        .stitches-sprite(-@u*954rem, -@u*5rem, @u*100rem, @u*101rem);
+    }
+
+    &.sprite-register-arrow {
+        .stitches-sprite(-@u*954rem, -@u*116rem, @u*15rem, @u*30rem);
+    }
+
+    &.sprite-right {
+        .stitches-sprite(-@u*979rem, -@u*116rem, @u*42rem, @u*42rem);
+    }
+
+    &.sprite-search-icon {
+        .stitches-sprite(-@u*35rem, -@u*168rem, @u*39rem, @u*39rem);
+    }
+
+    &.sprite-send-email {
+        .stitches-sprite(-@u*875rem, -@u*739rem, @u*118rem, @u*118rem);
+    }
+
+    &.sprite-stackoverflow {
+        .stitches-sprite(-@u*84rem, -@u*168rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-tab4 {
+        .stitches-sprite(-@u*1064rem, -@u*5rem, @u*345rem, @u*242rem);
+    }
+
+    &.sprite-talk-kefu-icon {
+        .stitches-sprite(-@u*937rem, -@u*257rem, @u*86rem, @u*86rem);
+    }
+
+    &.sprite-talk-user-icon {
+        .stitches-sprite(-@u*1033rem, -@u*257rem, @u*86rem, @u*86rem);
+    }
+
+    &.sprite-touch {
+        .stitches-sprite(-@u*1129rem, -@u*257rem, @u*40rem, @u*42rem);
+    }
+
+    &.sprite-tumblr {
+        .stitches-sprite(-@u*1179rem, -@u*257rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-twitter {
+        .stitches-sprite(-@u*1219rem, -@u*257rem, @u*30rem, @u*30rem);
+    }
+
+    &.sprite-user {
+        .stitches-sprite(-@u*1259rem, -@u*257rem, @u*27rem, @u*27rem);
+    }
+}

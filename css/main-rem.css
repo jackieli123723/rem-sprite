@@ -1,0 +1,396 @@
+html,
+body {
+  background: #f2f2f2;
+  font-family: "Microsoft YaHei";
+}
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 18.85333334rem 12.22666667rem;
+}
+.sprite.sprite-activity {
+  background-position: -0.06666667rem -0.06666667rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.sprite.sprite-add-img {
+  background-position: -1.8rem -0.06666667rem;
+  width: 0.74666667rem;
+  height: 0.74666667rem;
+}
+.sprite.sprite-android-icon {
+  background-position: -2.68rem -0.06666667rem;
+  width: 0.42666667rem;
+  height: 0.46666667rem;
+}
+.sprite.sprite-arrow-down {
+  background-position: -3.24rem -0.06666667rem;
+  width: 0.42666667rem;
+  height: 0.25333333rem;
+}
+.sprite.sprite-arrow-up {
+  background-position: -3.8rem -0.06666667rem;
+  width: 0.42666667rem;
+  height: 0.25333333rem;
+}
+.sprite.sprite-back {
+  background-position: -4.36rem -0.06666667rem;
+  width: 0.28rem;
+  height: 0.48rem;
+}
+.sprite.sprite-bank-check {
+  background-position: -4.77333334rem -0.06666667rem;
+  width: 0.42666667rem;
+  height: 0.42666667rem;
+}
+.sprite.sprite-close {
+  background-position: -5.33333334rem -0.06666667rem;
+  width: 0.48rem;
+  height: 0.48rem;
+}
+.sprite.sprite-code {
+  background-position: -5.94666667rem -0.06666667rem;
+  width: 0.32rem;
+  height: 0.32rem;
+}
+.sprite.sprite-code-success {
+  background-position: -6.4rem -0.06666667rem;
+  width: 0.72rem;
+  height: 0.72rem;
+}
+.sprite.sprite-del {
+  background-position: -7.25333334rem -0.06666667rem;
+  width: 0.50666667rem;
+  height: 0.50666667rem;
+}
+.sprite.sprite-dian {
+  background-position: -7.89333334rem -0.06666667rem;
+  width: 0.13333333rem;
+  height: 0.13333333rem;
+}
+.sprite.sprite-edit-gou {
+  background-position: -8.16rem -0.06666667rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-email {
+  background-position: -8.69333334rem -0.06666667rem;
+  width: 0.37333333rem;
+  height: 0.29333333rem;
+}
+.sprite.sprite-email-close {
+  background-position: -9.2rem -0.06666667rem;
+  width: 0.45333333rem;
+  height: 0.45333333rem;
+}
+.sprite.sprite-empty-bg {
+  background-position: -2.68rem -0.92rem;
+  width: 7.81333334rem;
+  height: 4.6rem;
+}
+.sprite.sprite-empty-text {
+  background-position: -0.06666667rem -5.65333334rem;
+  width: 4.94666667rem;
+  height: 0.42666667rem;
+}
+.sprite.sprite-github {
+  background-position: -9.78666667rem -0.06666667rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-gmail {
+  background-position: -10.32000001rem -0.06666667rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-ios-icon {
+  background-position: -10.85333334rem -0.06666667rem;
+  width: 0.41333333rem;
+  height: 0.46666667rem;
+}
+.sprite.sprite-linkedin {
+  background-position: -11.40000001rem -0.06666667rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-lock_2x {
+  background-position: -11.93333334rem -0.06666667rem;
+  width: 0.34666667rem;
+  height: 0.38666667rem;
+}
+.sprite.sprite-login-check {
+  background-position: -11.93333334rem -0.58666667rem;
+  width: 0.38666667rem;
+  height: 0.38666667rem;
+}
+.sprite.sprite-login-check-on {
+  background-position: -1.8rem -1.10666667rem;
+  width: 0.38666667rem;
+  height: 0.38666667rem;
+}
+.sprite.sprite-logo {
+  background-position: -10.62666667rem -1.10666667rem;
+  width: 1.52rem;
+  height: 1.69333333rem;
+}
+.sprite.sprite-lookpassword {
+  background-position: -0.06666667rem -2.93333333rem;
+  width: 0.53333333rem;
+  height: 0.32rem;
+}
+.sprite.sprite-lookpassword-on {
+  background-position: -0.73333333rem -2.93333333rem;
+  width: 0.53333333rem;
+  height: 0.32rem;
+}
+.sprite.sprite-mes-advice {
+  background-position: -1.4rem -2.93333333rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-arrow {
+  background-position: -12.41333334rem -0.06666667rem;
+  width: 0.17333333rem;
+  height: 0.30666667rem;
+}
+.sprite.sprite-mes-arrow-me {
+  background-position: -2.32rem -1.10666667rem;
+  width: 0.21333333rem;
+  height: 0.36rem;
+}
+.sprite.sprite-mes-bug {
+  background-position: -10.62666667rem -2.93333333rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-chong {
+  background-position: -11.56000001rem -2.93333333rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-circle {
+  background-position: -0.06666667rem -3.86666667rem;
+  width: 0.77333333rem;
+  height: 0.77333333rem;
+}
+.sprite.sprite-mes-circle-on {
+  background-position: -0.97333333rem -3.86666667rem;
+  width: 0.77333333rem;
+  height: 0.77333333rem;
+}
+.sprite.sprite-mes-gua {
+  background-position: -10.62666667rem -3.86666667rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-icon {
+  background-position: -5.14666667rem -5.65333334rem;
+  width: 2.13333333rem;
+  height: 2.14666667rem;
+}
+.sprite.sprite-mes-login {
+  background-position: -11.56000001rem -3.86666667rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-note {
+  background-position: -10.62666667rem -4.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-safe {
+  background-position: -11.56000001rem -4.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.sprite.sprite-mes-top-bg {
+  background-position: -0.06666667rem -7.93333334rem;
+  width: 10.00000001rem;
+  height: 4.22666667rem;
+}
+.sprite.sprite-news_03 {
+  background-position: -7.41333334rem -5.73333334rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.sprite.sprite-note-icon {
+  background-position: -1.88rem -3.86666667rem;
+  width: 0.48rem;
+  height: 0.37333333rem;
+}
+.sprite.sprite-password {
+  background-position: -0.06666667rem -4.8rem;
+  width: 0.34666667rem;
+  height: 0.38666667rem;
+}
+.sprite.sprite-peron-bi-icon2 {
+  background-position: -0.54666667rem -4.8rem;
+  width: 0.62666667rem;
+  height: 0.64rem;
+}
+.sprite.sprite-peron-order-icon {
+  background-position: -1.30666667rem -4.8rem;
+  width: 0.6rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-peron-user {
+  background-position: -9.14666667rem -5.73333334rem;
+  width: 1.81333333rem;
+  height: 1.81333333rem;
+}
+.sprite.sprite-person-bi {
+  background-position: -2.04rem -4.8rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-person-bi-icon {
+  background-position: -11.09333334rem -5.73333334rem;
+  width: 0.65333333rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-cw-icon {
+  background-position: -11.88000001rem -5.73333334rem;
+  width: 0.53333333rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-edit {
+  background-position: -12.28000001rem -1.10666667rem;
+  width: 0.30666667rem;
+  height: 0.32rem;
+}
+.sprite.sprite-person-email-icon {
+  background-position: -0.06666667rem -6.52rem;
+  width: 0.64rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-gift-icon {
+  background-position: -0.84rem -6.52rem;
+  width: 0.56rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-phone-icon {
+  background-position: -1.53333333rem -6.52rem;
+  width: 0.49333333rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-question-icon {
+  background-position: -2.16rem -6.52rem;
+  width: 0.6rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-rel-icon {
+  background-position: -2.89333333rem -6.52rem;
+  width: 0.65333333rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-person-sw-icon {
+  background-position: -3.68rem -6.52rem;
+  width: 0.53333333rem;
+  height: 0.65333333rem;
+}
+.sprite.sprite-personcode {
+  background-position: -4.34666667rem -6.52rem;
+  width: 0.37333333rem;
+  height: 0.42666667rem;
+}
+.sprite.sprite-phone {
+  background-position: -12.28000001rem -1.56rem;
+  width: 0.21333333rem;
+  height: 0.38666667rem;
+}
+.sprite.sprite-question-arrow {
+  background-position: -0.06666667rem -2.08rem;
+  width: 0.26666667rem;
+  height: 0.49333333rem;
+}
+.sprite.sprite-recharge-caifutong {
+  background-position: -11.09333334rem -6.52rem;
+  width: 1.33333333rem;
+  height: 1.34666667rem;
+}
+.sprite.sprite-recharge-money {
+  background-position: -10.20000001rem -8rem;
+  width: 0.98666667rem;
+  height: 0.98666667rem;
+}
+.sprite.sprite-recharge-tuijian {
+  background-position: -11.32000001rem -8rem;
+  width: 0.52rem;
+  height: 0.52rem;
+}
+.sprite.sprite-recharge-user-icon {
+  background-position: -11.32000001rem -8.65333334rem;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.sprite.sprite-recharge-yinlian {
+  background-position: -10.20000001rem -9.85333334rem;
+  width: 1.33333333rem;
+  height: 1.34666667rem;
+}
+.sprite.sprite-recharge-zhifubao {
+  background-position: -12.72000001rem -0.06666667rem;
+  width: 1.33333333rem;
+  height: 1.34666667rem;
+}
+.sprite.sprite-register-arrow {
+  background-position: -12.72000001rem -1.54666667rem;
+  width: 0.2rem;
+  height: 0.4rem;
+}
+.sprite.sprite-right {
+  background-position: -13.05333334rem -1.54666667rem;
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.sprite.sprite-search-icon {
+  background-position: -0.46666667rem -2.24rem;
+  width: 0.52rem;
+  height: 0.52rem;
+}
+.sprite.sprite-send-email {
+  background-position: -11.66666667rem -9.85333334rem;
+  width: 1.57333333rem;
+  height: 1.57333333rem;
+}
+.sprite.sprite-stackoverflow {
+  background-position: -1.12rem -2.24rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-tab4 {
+  background-position: -14.18666667rem -0.06666667rem;
+  width: 4.6rem;
+  height: 3.22666667rem;
+}
+.sprite.sprite-talk-kefu-icon {
+  background-position: -12.49333334rem -3.42666667rem;
+  width: 1.14666667rem;
+  height: 1.14666667rem;
+}
+.sprite.sprite-talk-user-icon {
+  background-position: -13.77333334rem -3.42666667rem;
+  width: 1.14666667rem;
+  height: 1.14666667rem;
+}
+.sprite.sprite-touch {
+  background-position: -15.05333334rem -3.42666667rem;
+  width: 0.53333333rem;
+  height: 0.56rem;
+}
+.sprite.sprite-tumblr {
+  background-position: -15.72000001rem -3.42666667rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-twitter {
+  background-position: -16.25333334rem -3.42666667rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.sprite.sprite-user {
+  background-position: -16.78666668rem -3.42666667rem;
+  width: 0.36rem;
+  height: 0.36rem;
+}
